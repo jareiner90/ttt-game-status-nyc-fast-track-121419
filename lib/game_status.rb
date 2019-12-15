@@ -26,5 +26,5 @@ end
 def full?(board)
   board.all? do |index|
     index == "O" || index == "X"
-  end 
+  end
 end 
