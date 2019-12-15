@@ -22,3 +22,9 @@ def won?(board)
     board[combo[0]] == board[combo[2]]
   end
 end
+
+def full?(board)
+  board.all? do |index|
+    index == "O" || index == "X"
+  end 
+end 
